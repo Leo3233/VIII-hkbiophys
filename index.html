@@ -39,51 +39,27 @@
 <body>
 
   <!-- Header -->
-  <div id="header" class="row align-middle">
-    <div class="medium-3 columns">
-      <img src="img/UST_Logo.png" alt="HKUST Logo" style="max-height: 80px;">
-    </div>
-    <div class="medium-6 columns text-center">
-      <h3><strong>8<sup>th</sup> Symposium on Biophysics Postgraduate Research in Hong Kong</strong></h3>
-    </div>
-    <div class="medium-3 columns text-right">
-      <img src="img/marks-image137.png" alt="Dpt Chem logo" style="max-height: 80px;">
-    </div>
-  </div>
+  <div w3-include-html="header.html"></div>
 
   <!-- Banner -->
-  <div id="bg" class="row">
-    <div class="large-12 columns">
-      <img src="img/HKUST Zoom_BG2.jpg" alt="HKUST Campus" style="width: 100%;">
-    </div>
-  </div>
+  <div w3-include-html="banner.html"></div>
 
   <!-- Navigation Menu -->
   <div class="row">
-    <div class="medium-3 columns" data-sticky-container>
-      <div id="sticky-menu" class="sticky" data-sticky data-anchor="content-block">
-        <ul class="vertical menu" data-magellan>
-          <li><a class="selected" href="index.html">Introduction</a></li>
-          <li><a href="organisers.html">Organisers & Speakers</a></li>
-          <li><a href="schedule.html">Schedule</a></li>
-          <li><a href="registration.html">Registration</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+    <div w3-include-html="navigator.html"></div>
 
     <!-- Main Content -->
     <div id="content-block" class="medium-9 columns">
       <h2>Welcome to the 8<sup>th</sup> Symposium</h2>
+
+      <p>Biophysics is a highly interdisciplinary field, and postgraduate students working in this area come from a variety of departments, including physics, chemistry, and biology. 
+        The proposed symposium, the 8th in this series, will provide a valuable platform for postgraduate students faculty and researchers from diverse academic backgrounds to discuss
+        recent advances in biophysics, exchage research ideas, and foster collaboration and networking. The previous symposia were held at CUHK(2014), HKBU(2016), CityU(2016/17), HKUST(2018),
+        CUHK(2019/20), HKBU(2023/24), and CityU(2024/25). This non-profit event aims to benefit the computational biotech community, and there will be no registration fee for participants.
+      </p>
+      
       <p>
         We are pleased to announce the 8<sup>th</sup> Symposium on Biophysics Postgraduate Research in Hong Kong, to be held on <strong>January 11, 2026</strong> at the <strong>HKUST campus</strong>.
-      </p>
-
-      <p>
-        This one-day symposium provides a dynamic platform for postgraduate students, faculty, and researchers working across biophysics, physics, chemistry, and biology to present their work and foster interdisciplinary collaborations.
-      </p>
-
-      <p>
         The event will feature keynote lectures by internationally recognized scientists, invited talks from leading institutions, and a poster session with awards for the best student contributions.
       </p>
 
@@ -95,17 +71,15 @@
 
       <p><strong>Contact Email:</strong> shihong.chen@connect.ust.hk</p>
 
-      <p><i>This event is supported by the Society of Interdisciplinary Research and hosted by HKUST.</i></p>
     </div>
   </div>
+</div>
 
   <!-- Footer -->
-  <div id="footer" class="row">
-    <div class="large-12 columns text-center">
-      <hr>
-      <p>&copy; 2025–2026 HKUST | Department of Chemistry</p>
-    </div>
-  </div>
-
+<div w3-include-html="footer.html"></div>
+  
+<script>
+includeHTML();
+</script>
 </body>
 </html>
