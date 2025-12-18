@@ -2922,7 +2922,7 @@ table {
   thead,
   tbody,
   tfoot {
-    border: 1px solid #f1f1f1;
+    /* border: 1px solid #f1f1f1; */
     background-color: #fefefe; }
   caption {
     font-weight: bold;
@@ -3907,3 +3907,4 @@ div.sponsor{
   left:40%;
 
 }
+
